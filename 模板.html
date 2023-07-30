@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>hello_react</title>
+        <title>模板</title>
     </head>
     <body>
         <!-- 准备好一个“容器” -->
@@ -18,11 +18,8 @@
 
         <script type="text/babel">
             // 此处一定要写babel
-
             // 1.创建虚拟DOM
-            const VDOM = (
-                <h1>Hello,React</h1>
-            ); /* 此处一定不要写引号，因为不是字符串 */
+            const VDOM = <div></div>;
             // 2.渲染虚拟DOM到页面
             ReactDOM.render(VDOM, document.getElementById("test"));
         </script>
